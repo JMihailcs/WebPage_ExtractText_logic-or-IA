@@ -1,0 +1,32 @@
+# === Node.js / Next.js ===
+node_modules/
+.next/
+out/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# === Backend ===
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/build/
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+
+# === Logs ===
+*.log
+logs/
+
+# === IDEs & OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === TypeScript ===
+*.tsbuildinfo

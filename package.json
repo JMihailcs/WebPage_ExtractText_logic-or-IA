@@ -1,0 +1,12 @@
+{
+  "name": "ET",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"yarn --cwd frontend dev\" \"yarn --cwd backend dev\""
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
