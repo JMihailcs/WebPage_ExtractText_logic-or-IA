@@ -5,6 +5,8 @@
     "dev": "concurrently \"yarn --cwd frontend dev\" \"yarn --cwd backend dev\""
   },
   "main": "index.js",
+  "repository": "https://github.com/JMihailcs/WebPage_ExtractText_logic-or-IA.git",
+  "author": "Johan <jm.condesallo@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^9.2.0"
